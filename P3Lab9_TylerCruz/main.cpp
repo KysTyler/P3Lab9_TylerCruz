@@ -12,6 +12,8 @@
  */
 
 #include <cstdlib>
+#include <iostream>
+#include "csv.h"
 
 using namespace std;
 
@@ -19,7 +21,11 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-
+    //completo_train_synth_dengueNew.csv
+//    csv* testing = new csv("pFileNew.csv");
+//    testing->load_file(true);
+//    testing->print_data();
+    
     return 0;
 }
 

@@ -16,6 +16,8 @@
 #include <string>
 #include <vector>
 #include <iostream>
+using std::cout;
+using std::cin;
 using std::endl;
 using std::vector;
 using std::string;
@@ -32,6 +34,7 @@ public:
     csv(string,bool);
     
     //getters && setters
+    void setData_Count(int);
     int getData_Count();
     void setFileName(string);
     string getFileName();
